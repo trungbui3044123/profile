@@ -6,12 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>simpleform</title>
-    <link rel="stylesheet" href="Profile.css">
+
     <style>
-     .wufoo {
-         font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
-     }
- </style>
+        .wufoo {
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
                 <h2>Order form</h2>
             </div>
             <div class="formcontent">
-                <form action="Profile.html" method="get">
+                <form action="/Profile.html" method="get">
                     <p>What would you like to buy?</p>
                     <select>
                         <option value="  ">A</option>
@@ -45,10 +45,19 @@
                     <input type="text" name="phone1" size="5" /> -
                     <input type="text" name="phone2" size="5" /> -
                     <input type="text" name="phone3" size="5" />
-                    <p><input type = "button" name="btSubmit" value="Submit"/></p>
+                    <p><input type="button" name="btSubmit" value="Submit" /></p>
                 </form>
             </div>
 
+        </section>
+        <section class="Google searchfrom">
+            <div class="formheader">
+                <h2>Google search from</h2>
+            </div>
+            <form action="https://www.google.com.vn/search">
+                <input type="text" name="q" />
+                <input type="submit" value="Tìm kiếm" />
+            </form>
         </section>
     </article>
 </body>
