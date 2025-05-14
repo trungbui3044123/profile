@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="resource/simpleform2.css">
 </head>
 
-<body>
+<body onload="addtable()">
     <h1 class="headerh1">Bài tập simple form</h1>
     <article class="body">
         <section>
-            <div class="form1 head">
+            <div class="form head">
                 <h2>Sở thích của bạn </h2>
             </div>
-            <div class="form1zone">
+            <div class="formzone">
                 <form action="" method="post">
                     <div class="formtop">
                         <div class="labelzone">
@@ -70,10 +70,10 @@
             </div>
         </section>
         <section>
-            <div class="form2 head">
+            <div class="form head">
                 <h2>Đăng ký học viên </h2>
             </div>
-            <div class="form2zone">
+            <div class="formzone">
                 <form action="" method="get">
                     <div class="formtop">
                         <div class="labelzone">
@@ -111,8 +111,18 @@
                 </form>
             </div>
         </section>
-    </article>
+               <section>
+            <div class="form head">
+                <h2>Tháng 10 - October </h2>
+            </div>
+            <div class="formzone">
+                <table id="calendar">
 
+                </table>
+            </div>
+        </section>
+    </article>
+<script src="resource/formvalidate.js"></script>
 </body>
 
 </html>

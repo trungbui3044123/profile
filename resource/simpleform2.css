@@ -1,3 +1,7 @@
+html, body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
 .headerh1{
     text-align: center;
     background-color: aliceblue;
@@ -6,7 +10,7 @@
 .head {
     text-align: center;
 }
-.form1zone, .form2zone{
+.formzone{
     border: 2px solid black;
     width: 70%;
     margin: auto;
@@ -44,4 +48,23 @@
 .checkbox div{
     display: block;
     width: auto;
+}
+
+#calendar{
+  border-collapse: collapse;
+  width: 100%;
+}
+#calendar td,#calendar th  {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: x-small;
+  text-align: center;
+}
+
+#calendar th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
 }
