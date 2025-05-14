@@ -1,0 +1,47 @@
+.headerh1{
+    text-align: center;
+    background-color: aliceblue;
+    height: 20%;
+}
+.head {
+    text-align: center;
+}
+.form1zone, .form2zone{
+    border: 2px solid black;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+
+
+}
+.formtop{
+    display: flex;
+    width: 100%;
+    height: 80%;
+
+}
+
+.labelzone{
+    width: 20%;
+    color: blue;
+    
+}
+
+.submitzone{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+     width: 70%;
+
+}
+
+.checkbox{
+    width: 120%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    color: orangered;
+}
+.checkbox div{
+    display: block;
+    width: auto;
+}
